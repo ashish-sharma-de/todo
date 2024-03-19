@@ -22,7 +22,7 @@ services:
       - postgres
   frontend:
     build:
-      context: ././todo-app-frontend
+      context: ././todo-app-frontened
       dockerfile: Dockerfile
     ports:
       - "80:80"
